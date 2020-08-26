@@ -20,7 +20,24 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.0.RELEASE</version>
 	</parent>
-
+<profile>
+        <id>sonar</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <properties>
+            <sonar.host.url>localhost:4950</sonar.host.url>
+            <sonar.projectName>Sonar Rules Test</sonar.projectName>
+            <sonar.log.level>DEBUG</sonar.log.level>
+            <sonar.verbose>true</sonar.verbose>
+            <sonar.sources>.</sonar.sources>
+            <sonar.java.binaries>${basedir}\\target\\classes</sonar.java.binaries>
+            <sonar.jacoco.reportPath>${basedir}\\target\\jacoco.exec</sonar.jacoco.reportPath>
+            <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+            <sonar.sourceEncoding>UTF-8</sonar.sourceEncoding>
+            <sonar.java.source>1.8</sonar.java.source>
+        </properties>
+    </profile>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
