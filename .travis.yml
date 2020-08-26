@@ -3,14 +3,9 @@ language: java
 addons:
   sonarcloud:
     organization: "superdevsteph"
-    
-    secure: "FEUDnkUMUah6yhmSl3ZdFLhbUfeWuCG7puNsud8Wy+hvwBoMaBubNIF5XtP7yVP9LEFZuVv5HQhsJPM6H86NvZdV27FdHIN0FIHnmsNVAAaASlHMVsVngIlKcnopKF24ZJqEb37UWu6npBKO00aeXv7Z0aS71hbNSQ+fQu0BFOyxzqSfV87cb2HyGj66sZUkUwi1xLG7Kqc6lFbwJNUXxaIAoOCRhnDYzjKgmIY+SErFOfFZ7Wq6SVjFwvSW4/c03AWupHYR8o64yC7DelVVzH99cnPonaAwJhyTYZ4l5dA3WpkxcjW+lDSKuSu8LYzRKIVti2cjonBHWkNAQ0efl/feLlo/0j7wiLmxDxYeYzF4ZGxIMHCQ267k4StQrWY54IECGJqpqvbwpaKuqJSotCUPnGP6UWohcbBh0Muw+HVn5JqHKeZ2pUz1U70ZP4sJgJowdMa8qk3cNKjpB7bvv7NtAbF3YL+szKp3gSbkc3trWS193VDsFc6F8CbLKKl1uRue9oTGvXA+lSUJzXV2V+iB9KVOTPaL/UyXg0zxKq/LlcQphBJcbkoykab3x5THHUcBqmgo5mTbSulij03+Z6LBS6ii0DcbvP0Aa1tBU/YRNVdykIPk5mVTUZpV3v//ckR/Bzr0BvqOxw41nyxDRaUQOOCf+aBn9bI95kirKgk="
-    
-script:
-  # JaCoCo is used to have code coverage, "-Pcoverage" activates the maven profile in the pom.xml
-  - mvn clean verify sonar:sonar -Pcoverage 
+    token:
+      secure: "FEUDnkUMUah6yhmSl3ZdFLhbUfeWuCG7puNsud8Wy+hvwBoMaBubNIF5XtP7yVP9LEFZuVv5HQhsJPM6H86NvZdV27FdHIN0FIHnmsNVAAaASlHMVsVngIlKcnopKF24ZJqEb37UWu6npBKO00aeXv7Z0aS71hbNSQ+fQu0BFOyxzqSfV87cb2HyGj66sZUkUwi1xLG7Kqc6lFbwJNUXxaIAoOCRhnDYzjKgmIY+SErFOfFZ7Wq6SVjFwvSW4/c03AWupHYR8o64yC7DelVVzH99cnPonaAwJhyTYZ4l5dA3WpkxcjW+lDSKuSu8LYzRKIVti2cjonBHWkNAQ0efl/feLlo/0j7wiLmxDxYeYzF4ZGxIMHCQ267k4StQrWY54IECGJqpqvbwpaKuqJSotCUPnGP6UWohcbBh0Muw+HVn5JqHKeZ2pUz1U70ZP4sJgJowdMa8qk3cNKjpB7bvv7NtAbF3YL+szKp3gSbkc3trWS193VDsFc6F8CbLKKl1uRue9oTGvXA+lSUJzXV2V+iB9KVOTPaL/UyXg0zxKq/LlcQphBJcbkoykab3x5THHUcBqmgo5mTbSulij03+Z6LBS6ii0DcbvP0Aa1tBU/YRNVdykIPk5mVTUZpV3v//ckR/Bzr0BvqOxw41nyxDRaUQOOCf+aBn9bI95kirKgk=" # encrypted value of your token
 
-cache:
-  directories:
-    - '$HOME/.m2/repository'
-    - '$HOME/.sonar/cache'
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
