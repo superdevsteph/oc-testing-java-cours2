@@ -4,7 +4,7 @@ install: true
 
 addons:
   sonarcloud:
-    organization: "sonarcloud"
+    organization: "superdevsteph"
     
 script:
   # JaCoCo is used to have code coverage, "-Pcoverage" activates the maven profile in the pom.xml
