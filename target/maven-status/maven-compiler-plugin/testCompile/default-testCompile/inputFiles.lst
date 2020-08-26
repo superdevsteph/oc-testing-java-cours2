@@ -1,0 +1,12 @@
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/controller/CalculatorControllerSIT.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/domain/CalculatorTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/domain/ConversionCalculatorTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/service/BatchCalculatorServiceTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/domain/LoggingExtension.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/domain/DoubleCalculatorTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/service/CalculatorServiceIT.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/e2e/StudentMultiplicationJourneyE2E.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/domain/StatisticsCalculatorTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/service/SolutionFormatterTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/service/CalculatorServiceTest.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/test/java/com/openclassrooms/testing/calcul/e2e/page/CalculatorPage.java

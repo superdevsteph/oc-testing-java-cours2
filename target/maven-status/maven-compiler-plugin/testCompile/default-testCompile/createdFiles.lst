@@ -1,0 +1,14 @@
+com/openclassrooms/testing/calcul/domain/CalculatorTest.class
+com/openclassrooms/testing/calcul/controller/CalculatorControllerSIT.class
+com/openclassrooms/testing/calcul/domain/ConversionCalculatorTest.class
+com/openclassrooms/testing/calcul/domain/ConversionCalculatorTest$TemperatureTests.class
+com/openclassrooms/testing/calcul/service/SolutionFormatterTest.class
+com/openclassrooms/testing/calcul/service/BatchCalculatorServiceTest.class
+com/openclassrooms/testing/calcul/e2e/page/CalculatorPage.class
+com/openclassrooms/testing/calcul/domain/LoggingExtension.class
+com/openclassrooms/testing/calcul/service/BatchCalculatorServiceTest$1.class
+com/openclassrooms/testing/calcul/domain/DoubleCalculatorTest.class
+com/openclassrooms/testing/calcul/service/CalculatorServiceTest.class
+com/openclassrooms/testing/calcul/e2e/StudentMultiplicationJourneyE2E.class
+com/openclassrooms/testing/calcul/service/CalculatorServiceIT.class
+com/openclassrooms/testing/calcul/domain/StatisticsCalculatorTest.class

@@ -1,0 +1,16 @@
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/BatchCalculationFileServiceImpl.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/CalculatorServiceImpl.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/domain/ConversionCalculator.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/controller/CalculatorController.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/SolutionFormatterImpl.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/domain/StatisticsCalculator.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/BatchCalculatorService.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/domain/model/CalculationType.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/domain/model/Calculation.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/domain/model/CalculationModel.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/BatchCalculatorServiceImpl.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/CalculatorService.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/BatchCalculationFileService.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/domain/Calculator.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/CalculatorApp.java
+/Users/stephaniemehraik/git/oc-testing-java-cours2/src/main/java/com/openclassrooms/testing/calcul/service/SolutionFormatter.java
