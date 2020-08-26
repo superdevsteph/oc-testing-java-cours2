@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
@@ -27,13 +27,13 @@ public class StudentMultiplicationJourneyE2E {
 	private String baseUrl;
 
 	@BeforeAll
-	public static void setUpFirefoxDriver() {
-		WebDriverManager.firefoxdriver().setup();
+	public static void setUpChromeDriver() {
+		WebDriverManager.chromedriver().setup();
 	}
 
 	@BeforeEach
 	public void setUpWebDriver() {
-		webDriver = new FirefoxDriver();
+		webDriver = new ChromeDriver();
 		baseUrl = "http://localhost:" + port + "/calculator";
 	}
 
