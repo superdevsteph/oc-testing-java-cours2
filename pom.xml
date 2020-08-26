@@ -12,11 +12,7 @@
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
 		<bootstrap.version>4.3.1</bootstrap.version>
 		<springboot.version>2.2.0.RELEASE</springboot.version>
-<<<<<<< HEAD
-		<sonar.sources>src</sonar.sources>
-=======
-		
->>>>>>> branch 'master' of https://github.com/superdevsteph/oc-testing-java-cours2.git
+
 	</properties>
 
 	<parent>
